@@ -1,4 +1,4 @@
-# Lab 4: Machine Translation (English → Romanian)
+# Lab 4: Foreign Language to English Translation
 
 **Albert Kabore** — PhD Student in Artificial Intelligence, University of the Cumberlands.
 
@@ -17,7 +17,7 @@ The notebook includes saved outputs, so you can read the results without running
 
 The dataset is in [`data/`](data/): the 1,999-pair WMT16 ro-en test set, the same data the reference notebook loads from Hugging Face. [`data/README.md`](data/README.md) gives its source and citation, and `scripts/export_dataset.py` recreates the files.
 
-The current Word report is [`Lab4_Machine_Translation_Report_Revised.docx`](Lab4_Machine_Translation_Report_Revised.docx), exported from the executed notebook. It includes the author and affiliation, all narrative sections, code, saved outputs, tables, and references. The earlier Word version is retained as `Lab4_Machine_Translation_Report.docx`.
+The Word report is [Lab 4: Foreign Language to English Translation](<Lab 4 - Foreign Language to English Translation.docx>), exported from the executed notebook. It includes the author and affiliation, all narrative sections, code, saved outputs, tables, and references. Its filename uses a hyphen because Windows does not permit a colon; the title inside the report is exactly **Lab 4: Foreign Language to English Translation**.
 
 To regenerate the Word report from the notebook's saved content:
 

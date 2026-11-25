@@ -21,7 +21,7 @@ from nbconvert.filters import markdown2html
 
 ROOT = Path(__file__).resolve().parent.parent
 NOTEBOOK = ROOT / "Lab4_Machine_Translation.ipynb"
-REPORT = ROOT / "Lab4_Machine_Translation_Report_Revised.docx"
+REPORT = ROOT / "Lab 4 - Foreign Language to English Translation.docx"
 
 
 def set_font(style, name, size):

@@ -82,6 +82,9 @@ target/
 # Word temporary owner files
 ~$*.docx
 
+# Obsolete local report still held open by Word
+Lab4_Machine_Translation_Report.docx
+
 # IPython
 profile_default/
 ipython_config.py
