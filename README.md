@@ -17,9 +17,14 @@ The notebook includes saved outputs, so you can read the results without running
 
 The dataset is in [`data/`](data/): the 1,999-pair WMT16 ro-en test set, the same data the reference notebook loads from Hugging Face. [`data/README.md`](data/README.md) gives its source and citation, and `scripts/export_dataset.py` recreates the files.
 
-The PDF report is [`Lab4_Machine_Translation_Report.pdf`](Lab4_Machine_Translation_Report.pdf), exported from the executed notebook.
+The editable Word report is [`Lab4_Machine_Translation_Report.docx`](Lab4_Machine_Translation_Report.docx), exported from the executed notebook. It includes the author and affiliation, all narrative sections, code, saved outputs, tables, and references.
 
-To regenerate the PDF from the notebook's saved content, use `python scripts/export_report.py`. The exporter documents its optional browser dependencies.
+To regenerate the Word report from the notebook's saved content:
+
+```bash
+python -m pip install -r requirements-report.txt
+python scripts/export_report.py
+```
 
 ## Results (WMT16 ro-en test, 1,999 sentences, t5-small)
 
