@@ -7,7 +7,7 @@ Translates the WMT16 Romanian–English test set (1,999 sentences) from English 
 The deliverable is [`Lab4_Machine_Translation.ipynb`](Lab4_Machine_Translation.ipynb). It contains:
 
 - **Introduction**: objectives, scope, and evaluation approach
-- **Part A**: a 423-word explanation of neural machine translation (including the heading), under the 500-word limit
+- **Part A**: a 381-word explanation of neural machine translation (including the heading), under the 500-word limit
 - **Part B**: tasks 1–5 (setup, tokenizer/model, dataset, `translate` + `Dataset.map`, BLEU)
 - **Part C**: commentary on the commands and an analysis of the BLEU results
 - **Final Insights, Recommendations, and Conclusion**: findings and proposed next steps
@@ -17,7 +17,7 @@ The notebook includes saved outputs, so you can read the results without running
 
 The dataset is in [`data/`](data/): the 1,999-pair WMT16 ro-en test set, the same data the reference notebook loads from Hugging Face. [`data/README.md`](data/README.md) gives its source and citation, and `scripts/export_dataset.py` recreates the files.
 
-The editable Word report is [`Lab4_Machine_Translation_Report.docx`](Lab4_Machine_Translation_Report.docx), exported from the executed notebook. It includes the author and affiliation, all narrative sections, code, saved outputs, tables, and references.
+The current Word report is [`Lab4_Machine_Translation_Report_Revised.docx`](Lab4_Machine_Translation_Report_Revised.docx), exported from the executed notebook. It includes the author and affiliation, all narrative sections, code, saved outputs, tables, and references. The earlier Word version is retained as `Lab4_Machine_Translation_Report.docx`.
 
 To regenerate the Word report from the notebook's saved content:
 

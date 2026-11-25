@@ -79,6 +79,9 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Word temporary owner files
+~$*.docx
+
 # IPython
 profile_default/
 ipython_config.py
