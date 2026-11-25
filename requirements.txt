@@ -1,0 +1,8 @@
+torch>=2.2
+numpy>=1.26
+transformers>=4.40
+datasets>=2.19
+sacrebleu>=2.4
+sentencepiece>=0.2
+pandas>=2.2
+jupyter>=1.0
